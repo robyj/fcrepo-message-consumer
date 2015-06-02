@@ -12,6 +12,7 @@ branches:
     - /^fcrepo-*/
 
 script:
+ - mvn install -B -V
  - mvn javadoc:jar
  - mvn javadoc:test-aggregate
 
